@@ -14,8 +14,10 @@ function PicturePage() {
    }, []);
 
   return (
+    <>
+    <p className="text-xl font-bold sm:text-3xl mb-2">Astronomy Pic of The Day</p>
     <div className="flex flex-col justify-center lg:flex-row shadow-xl glass bg-base-100 hover:bg-base-100">
-      <figure className="w-auto sm:w-96">
+      <figure className="w-auto sm:w-96 container">
         <img src={data.hdurl} alt="POTD"/>
       </figure>
       <div className="card-body">
@@ -24,6 +26,7 @@ function PicturePage() {
         <h1 className="font-semibold text-base">{data.title}</h1>
       </div>
     </div>
+    </>
   );
 }
 
