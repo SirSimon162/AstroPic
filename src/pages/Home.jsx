@@ -1,12 +1,12 @@
-import React from 'react'
-import ViewButton from '../components/ViewButton'
+import React from "react";
+import ViewButton from "../components/ViewButton";
 
 function Home() {
   return (
     <div>
-      <ViewButton/>
+      <ViewButton />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
