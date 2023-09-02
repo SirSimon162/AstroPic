@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import PicturePage from "./pages/PicturePage";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer"
 
 function App() {
   return (
